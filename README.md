@@ -90,7 +90,7 @@ The dashboard is structured into two main pages, each focusing on specific retai
 
 **Business Goal:**  
 Analyze customer transactions, spending, and payment habits to understand key sales drivers.  
- PICTURE
+![image alt](https://github.com/odewolemistura/Retail-Sales-Customer-Behavior-Promotion-Analysis-EXCEL-Project-/blob/fc83aad521877067380ba53265f8535a305d9da2/Retail%20Project%20page%20one.png)
 
  # Key Metrics (Top of Page): Total Transactions, Total Revenue, Average Items per Customer Category  
 
