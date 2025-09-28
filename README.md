@@ -145,4 +145,80 @@ Together, these KPIs help decision-makers assess how discounts, promotions, and 
 
 ## Visuals  
 
-- **Discount Impact on Revenue (Pie Chart):**
+- **Discount Impact on Revenue (Pie Chart):** Shows the revenue split between discounted and non-discounted purchases, helping to measure the financial contribution of discounts to overall sales.  
+- **Promotion Effectiveness (Column Chart):** Compares the average transaction value across different promotion types (e.g., BOGO, Discounted Items, No Promotion), revealing which promotional strategy drives higher customer spending.  
+- **Sales by City (Map Visualization):** Displays revenue distribution across cities, providing a geographic view of store performance and highlighting key urban markets.  
+- **Store Type Revenue (Bar Chart):** Breaks down sales by store format (e.g., Supermarket, Pharmacy, Convenience Store), making it clear which store types generate the most revenue.  
+- **Seasonal Sales Analysis (Column Chart):** Analyzes revenue by season, offering insights into how customer demand fluctuates across spring, summer, fall, and winter.  
+
+---
+
+## Slicer: Year  
+
+The dashboard includes a **Year** slicer that allows users to filter and interact with sales data dynamically across different time periods.  
+
+- **Year** enables users to examine annual sales trends, compare performance across multiple years, and identify shifts in customer behavior or promotion effectiveness over time.  
+
+This interactive filter ensures that KPIs, charts, and visuals adapt instantly, giving decision-makers a flexible view of sales performance. By narrowing the focus to specific years, users can detect seasonality, evaluate yearly growth, and align strategies with evolving retail trends.  
+
+---
+
+# Key Analysis Findings  
+
+The analysis of the retail dataset produced several insights into customer behavior, sales performance, and promotional effectiveness:  
+
+### 1. Revenue Performance and Seasonal Trends  
+- Total revenue reached **$52.46M** across **1.0M transactions**, with a steady average transaction cost of **$52.46**.  
+- Monthly sales revealed peaks in **March ($5.1M)** and **January ($5.08M)**, while **September ($3.92M)** and **June ($3.94M)** recorded the lowest sales. This highlights seasonality in customer demand.  
+
+### 2. Customer Categories and Spending Habits  
+- Spending was evenly distributed across customer categories, each contributing around **$6.5M** to revenue.  
+- Average items per transaction remained stable across categories, at roughly **5.5 items**, showing little variation in basket size.  
+
+### 3. Transaction Patterns and Spend Range  
+- Most transactions fell between the **21–80 spend range**, each range accounting for about **210K transactions**, indicating consistent customer spending behavior.  
+
+### 4. Payment Preferences  
+- Payment methods were evenly split across **cash, debit card, credit card, and mobile payment**, each with around **250K transactions**, suggesting customers have diverse but balanced payment preferences.  
+
+### 5. Discounts and Promotions  
+- Sales were nearly equal between **discounted ($26.25M)** and **non-discounted ($26.21M)** transactions, showing discounts did not drastically alter overall revenue.  
+- Average transaction values were very close across promotions: **BOGO ($52.42)**, **Discount on Selected Items ($52.38)**, and **None ($52.57)** — indicating limited variation in customer spending regardless of promotion type.  
+
+### 6. Geographic and Store Performance  
+- Revenue was evenly spread across major cities, each generating around **$5.2M**, with no single city dominating sales.  
+- Store types contributed similar revenue levels (~**$8.7M each**), with **Pharmacies ($8.77M)** and **Supermarkets ($8.76M)** slightly ahead.  
+
+### 7. Seasonal Revenue Insights  
+- Sales were consistent across seasons, with **Fall ($13.14M)** recording the highest revenue and **Winter ($13.08M)** the lowest.  
+- However, the difference between seasons was minimal, suggesting year-round steady demand.  
+
+**Overall Insight:** Customer purchasing behavior, store performance, and seasonal sales remained remarkably balanced across categories, cities, store types, and promotions. While discounts and promotions had minimal impact on average transaction values, revenue was primarily driven by transaction volume rather than promotional strategies or customer segmentation. This suggests opportunities lie in expanding transaction counts (e.g., through loyalty programs or cross-selling) rather than relying heavily on discounts.  
+
+---
+
+# Recommendations  
+
+Based on the analysis of sales, customer behavior, promotions, and store performance, the following recommendations can help strengthen retail strategy and revenue growth:  
+
+1. **Leverage Transaction Volume Growth Over Discounts:** Since discounts and promotions showed minimal impact on increasing average spend, focus should shift toward driving more transactions. Loyalty programs, bundle offers, and personalized product recommendations can encourage repeat purchases without relying on heavy discounts.  
+
+2. **Target Seasonal Peaks for Optimized Promotions:** Sales were highest in **January** and **March**, suggesting natural demand spikes. Retailers can align major promotions and marketing campaigns around these periods to maximize impact while keeping discounts moderate in off-peak months.  
+
+3. **Enhance Cross-Selling and Upselling Strategies:** With basket sizes averaging around **5.5 items** across all customer groups, retailers can introduce product bundles, “frequently bought together” deals, or tiered discounts to increase average items per transaction.  
+
+4. **Diversify Payment Experience:** Since all payment methods were used almost equally, retailers should continue supporting multiple options while exploring emerging payment solutions (e.g., BNPL or digital wallets) to further enhance convenience and customer retention.  
+
+5. **City-Specific and Store-Type Marketing:** Revenues were balanced across cities and store types, but subtle differences exist (e.g., Pharmacies and Supermarkets slightly higher). Tailored promotions based on local demographics or store format can help unlock incremental sales.  
+
+6. **Strengthen Customer Segmentation and Personalization:** Although revenue distribution across customer categories was balanced, retailers should consider personalized marketing by age group and lifestyle segment to deepen engagement and create long-term loyalty.  
+
+7. **Maintain Year-Round Engagement:** Seasonal revenue was relatively stable, showing steady demand throughout the year. Instead of heavy seasonal campaigns, retailers can focus on consistent engagement strategies such as rewards programs, customer appreciation events, and targeted promotions spread evenly across the year.  
+
+**Overall Strategy:** By reducing overreliance on discounts and focusing on increasing transaction frequency, personalization, and steady engagement, the business can achieve sustainable revenue growth while keeping customer satisfaction high.  
+
+---
+
+# Limitations  
+
+This analysis is based on a single dataset sourced from **Kaggle**, which may not fully capture real-world retail complexities. Customer names and product details were generalized, limiting deeper insights into individual purchasing patterns or product-level profitability. Additionally, the balanced distribution of sales across cities, store types, and customer categories suggests the dataset may have been simulated, which can restrict the applicability of findings to actual retail operations.  
